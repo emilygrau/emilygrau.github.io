@@ -10,7 +10,7 @@ nav {
 nav.pinned {
     position: fixed;
     top: 0;
-    background-color: #ffdfdd;
+    background-color: #c48189;
     transition: 0.3s ease background-color;
     -webkit-transition: 0.2s ease background-color;
 }
