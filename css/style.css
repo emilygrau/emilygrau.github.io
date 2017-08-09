@@ -56,8 +56,8 @@ nav.pinned {
     background-position: 50%;
     background-size: contain;
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     transform: translate(-50%, -50%);
 }
 
