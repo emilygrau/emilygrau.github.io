@@ -10,7 +10,7 @@ nav {
 nav.pinned {
     position: fixed;
     top: 0;
-    background-color: #c48189;
+    background-color: #e8adaa;
     transition: 0.3s ease background-color;
     -webkit-transition: 0.2s ease background-color;
 }
@@ -106,7 +106,7 @@ nav.pinned {
 
 #projects {
     text-align: center;
-    background: #c5908e;
+    background: #c48189;
 }
 
 #projects p {
