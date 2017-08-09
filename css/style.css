@@ -28,7 +28,7 @@ nav.pinned {
 
 .hero {
     height: 100%;
-    background-color: #FBBBB9;
+    background-color: #FAAFBA;
     cursor: default;
 }
 
@@ -154,27 +154,27 @@ li {
 }
 
 .c {
-    width: 65%;
+    width: 80%;
     background-color: #eb7fa9;
 }
 
-.html-css {
-    width: 70%;
+.MATLAB {
+    width: 65%;
     background-color: #6f1c5d;
 }
 
-.javascript {
+.html {
     width: 20%;
     background-color: #be68a2;
 }
 
-.java {
-    width: 30%;
+.mips {
+    width: 50%;
     background-color: #deb3d0;
 }
 
-.photoshop {
-    width: 30%;
+.vs {
+    width: 80%;
     background-color: #deb3d0;
 }
 
