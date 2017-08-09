@@ -10,7 +10,7 @@ nav {
 nav.pinned {
     position: fixed;
     top: 0;
-    background-color: #e8adaa;
+    background-color: #ecc5c0;
     transition: 0.3s ease background-color;
     -webkit-transition: 0.2s ease background-color;
 }
@@ -56,15 +56,15 @@ nav.pinned {
     background-position: 50%;
     background-size: contain;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     transform: translate(-50%, -50%);
 }
 
 .links {
     position: relative;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 20px;
     margin-left: -40px;
     z-index: 2;
