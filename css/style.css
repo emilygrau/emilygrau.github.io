@@ -64,7 +64,7 @@ nav.pinned {
 .links {
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 20px;
     margin-left: -40px;
     z-index: 2;
