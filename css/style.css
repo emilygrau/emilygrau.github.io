@@ -28,7 +28,7 @@ nav.pinned {
 
 .hero {
     height: 100%;
-    background-color: #ffdfdd;
+    background-color: #ecc5c0;
     cursor: default;
 }
 
@@ -106,7 +106,7 @@ nav.pinned {
 
 #projects {
     text-align: center;
-    background: #ecc5c0;
+    background: #c5908e;
 }
 
 #projects p {
