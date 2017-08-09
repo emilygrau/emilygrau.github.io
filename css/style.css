@@ -101,6 +101,114 @@ nav.pinned {
     color: #222222;
 }
 
+
+/* Skills *
+---------------------------------------------------------- */
+
+#skills {
+    background: #efefef;
+}
+
+#skills > div {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#skills h2 {
+    text-align: center;
+}
+.skill {
+    list-style: none;
+    width: 44%;
+    margin: 15px auto 0;
+    padding: 30px 0;
+    position: relative;
+    line-height: 20px;
+    display: inline-table;
+}
+
+.skill h2 {
+    text-align: center;
+}
+
+.left-column {
+    margin-right: 10%;
+}
+
+li {
+    display: list-item;
+}
+.skill li {
+    margin-bottom: 50px;
+    background: #FFFFFF;
+}
+
+.bar {
+    height: 20px;
+    position: absolute;
+}
+
+.skill li h4 {
+    position: relative;
+    top: -25px!important;
+}
+
+.c {
+    width: 65%;
+    background-color: #eb7fa9;
+}
+
+.html-css {
+    width: 70%;
+    background-color: #6f1c5d;
+}
+
+.javascript {
+    width: 20%;
+    background-color: #be68a2;
+}
+
+.java {
+    width: 30%;
+    background-color: #deb3d0;
+}
+
+.photoshop {
+    width: 30%;
+    background-color: #deb3d0;
+}
+
+.illustrator {
+    width: 40%;
+    background-color: #be68a2;
+}
+
+.web-design {
+    width: 50%;
+    background-color: #eb7fa9;
+}
+
+.jquery {
+    width: 20%;
+    background-color: #6f1c5d;
+}
+
+#button {
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    padding: 11px 15px;
+    background-color: #eb7fa9;
+    color: #FFFFFF;
+}
+
+
+
 /* Projects
 ------------------------------------------------------------ */
 
