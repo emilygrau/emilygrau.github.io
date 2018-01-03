@@ -56,8 +56,8 @@ nav.pinned {
     background-position: 50%;
     background-size: contain;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     transform: translate(-50%, -50%);
 }
 
@@ -165,22 +165,22 @@ li {
 
 .html {
     width: 20%;
-    background-color: #be68a2;
+    background-color: #d8c7c32;
 }
 
 .mips {
     width: 50%;
-    background-color: #deb3d0;
+    background-color: #f2e4e1;
 }
 
 .vs {
     width: 80%;
-    background-color: #deb3d0;
+    background-color: #f2e4e1;
 }
 
 .linux {
     width: 70%;
-    background-color: #be68a2;
+    background-color: #d8c7c3;
 }
 
 .emblinux {
