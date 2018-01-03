@@ -28,7 +28,7 @@ nav.pinned {
 
 .hero {
     height: 100%;
-    background-color: #e0ccc7;
+    background-color: #efdad5;
     cursor: default;
 }
 
@@ -155,7 +155,7 @@ li {
 
 .c {
     width: 72%;
-    background-color: #eb7fa9;
+    background-color: #efdad5;
 }
 
 .MATLAB {
@@ -185,7 +185,7 @@ li {
 
 .emblinux {
     width: 40%;
-    background-color: #eb7fa9;
+    background-color: #efdad5;
 }
 
 .micro {
@@ -206,6 +206,11 @@ li {
 #experience {
     text-align: center;
     background: #ffffff;
+}
+#experience img {
+    width: 80%;
+    height: auto;
+    margin: 15px auto;
 }
 
 /* Effects
