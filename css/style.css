@@ -198,21 +198,7 @@ li {
 
 
 /* Projects
------------------------------------------------------------- */
 
-#projects {
-    text-align: center;
-    background: #c48189;
-}
-
-#projects p {
-    padding-bottom: 20px;
-}
-
-#projects img {
-    width: 80%;
-    height: auto;
-}
 
 /* Experience
 ------------------------------------------------------------ */
