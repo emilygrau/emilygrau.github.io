@@ -51,7 +51,7 @@ nav.pinned {
     position: absolute;
     top: 30%;
     left: 50%;
-    background-image: url(/img/emily.jpg);
+    background-image: url(/img/emily.JPG);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: contain;
@@ -165,22 +165,22 @@ li {
 
 .html {
     width: 20%;
-    background-color: #d8c7c32;
+    background-color: #baa9a5;
 }
 
 .mips {
     width: 50%;
-    background-color: #f2e4e1;
+    background-color: #ffeae5;
 }
 
 .vs {
     width: 80%;
-    background-color: #f2e4e1;
+    background-color: #ffeae5;
 }
 
 .linux {
     width: 70%;
-    background-color: #d8c7c3;
+    background-color: #baa9a5;
 }
 
 .emblinux {
