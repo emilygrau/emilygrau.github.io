@@ -28,7 +28,7 @@ nav.pinned {
 
 .hero {
     height: 100%;
-    background-color: #FAAFBA;
+    background-color: #e0ccc7;
     cursor: default;
 }
 
@@ -51,7 +51,7 @@ nav.pinned {
     position: absolute;
     top: 30%;
     left: 50%;
-    background-image: url(/img/emily.JPG);
+    background-image: url(/img/emily.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: contain;
