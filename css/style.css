@@ -164,8 +164,8 @@ li {
 }
 
 .html {
-    width: 20%;
-    background-color: #baa9a5;
+    width: 40%;
+    background-color: #a09492;
 }
 
 .mips {
@@ -180,11 +180,11 @@ li {
 
 .linux {
     width: 70%;
-    background-color: #baa9a5;
+    background-color: #a09492;
 }
 
 .emblinux {
-    width: 40%;
+    width: 55%;
     background-color: #efdad5;
 }
 
