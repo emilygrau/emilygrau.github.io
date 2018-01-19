@@ -53,11 +53,11 @@ nav.pinned {
     left: 50%;
     background-image: url(/img/IMG_7578.jpeg);
     background-repeat: no-repeat;
-    background-position: 100%;
-    background-size: auto;
+    background-position: 50%;
+    background-size: contain;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     transform: translate(-50%, -50%);
 }
 
