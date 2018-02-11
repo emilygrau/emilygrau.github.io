@@ -1,2 +1,0 @@
-# emilygrau.github.io
-Resume 
