@@ -54,7 +54,7 @@ context.fillRect(0,0, canvas.width, canvas.height);
 document.addEventListener("keydown", direction);
 
 function direction(){
-	press++;
+	press = press + 1;
 	let key = event.keyCode;
 	if (key == LEFT_KEY && dir != "RIGHT"){
 		dir = "LEFT";
