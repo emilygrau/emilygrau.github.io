@@ -78,6 +78,7 @@ function collision (head, array) {
 
 function drawSnake() {
 	if (press == 1) {
+		console.log("hi");
 		dataLayer.push({
   			'event': 'gameInitiated'
 		});
