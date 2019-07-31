@@ -133,6 +133,9 @@ function drawSnake() {
 		clearInterval(game);
 		console.log("Game over! Score: " + score + "\nRefresh for new game.")
 		press = 0;
+		dataLayer.push({
+  			'event': 'gameComplete'
+		});
 	}
 
 	snake.unshift(newHead);
