@@ -30,6 +30,8 @@ var up = false;
 var down = false;
 var gamePlay = true;
 
+var press = 0;
+
 let dir;
 
 let snake = [];
@@ -52,6 +54,7 @@ context.fillRect(0,0, canvas.width, canvas.height);
 document.addEventListener("keydown", direction);
 
 function direction(){
+	press++;
 	let key = event.keyCode;
 	if (key == LEFT_KEY && dir != "RIGHT"){
 		dir = "LEFT";
@@ -74,6 +77,12 @@ function collision (head, array) {
 }
 
 function drawSnake() {
+	if (press == 1) {
+		dataLayer.push({
+  			'event': 'gameInitiated'
+		});
+	}
+	
 	context.fillStyle = "black";
 	context.fillRect(0,0, canvas.width, canvas.height);
 	//console.log(snake.length);
@@ -121,7 +130,7 @@ function drawSnake() {
 		snakeHeadY < 0 || snakeHeadY > C_HEIGHT || collision(newHead, snake)) {
 		clearInterval(game);
 		console.log("Game over! Score: " + score + "\nRefresh for new game.")
-
+		press = 0;
 	}
 
 	snake.unshift(newHead);
