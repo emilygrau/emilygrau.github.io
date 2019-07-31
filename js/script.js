@@ -77,6 +77,7 @@ function collision (head, array) {
 }
 
 function drawSnake() {
+	console.log(press);
 	if (press == 1) {
 		console.log("hi");
 		dataLayer.push({
